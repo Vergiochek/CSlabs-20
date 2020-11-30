@@ -102,7 +102,6 @@ namespace WinService
 
             public void Stop()
             {
-               
                 watcher.EnableRaisingEvents = false;
                 enabled = false;
             }

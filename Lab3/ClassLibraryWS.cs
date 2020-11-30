@@ -149,8 +149,6 @@ namespace ClassLibraryWS
             var name = stpath.Substring(i);
             var newpath = Path.Combine(folder, name);
 
-           
-
             using (FileStream sourceStream = new FileStream(getstr, FileMode.Open))
             {
                 using (FileStream targetStream = File.Create(newpath))
