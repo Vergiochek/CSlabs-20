@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<EtlXmlJsonOption xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <pathes>
+    <Source1>D:\csharp\Source1</Source1>
+    <Target1>D:\csharp\Target1</Target1>
+    <ArchFolder>Archive</ArchFolder>
+  </pathes>
+  <archivizeOptions>
+    <Cryptextension>.crypt</Cryptextension>
+  </archivizeOptions>
+  <cryptOptions>
+    <key>1</key>
+    <Extension>.txt</Extension>
+    <Cryptext>.crypt</Cryptext>
+  </cryptOptions>
+  <copyOptions>
+    <w>83</w>
+  </copyOptions>
+</EtlXmlJsonOption>
